@@ -1,0 +1,114 @@
+h1 {
+	color: blue;
+	font-family: monospace;
+	font-size: 47px;
+}
+
+img {
+	padding-bottom: 10px;
+}
+
+ul {
+	list-style-type: none; /* Removes bullets */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+div header footer {	
+	height: auto;
+	width: auto;
+	min-width: 565px;
+	margin: auto;
+}
+
+.blue-section {
+	border: 2.5px solid gray;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.white-section {
+	border: 2.5px solid gray;
+	background-color: white;
+	text-align: center;
+}
+
+.medium {
+	height: 170px;
+	width: 170px;
+}
+
+.chessboard {
+	height: 320px;
+	width: 320px;
+	margin: auto;
+	border: 15px solid #333;
+}
+
+.light {
+	height: 35px;
+	width: 35px;
+	background-color: #fff;
+}
+
+.dark {
+	height: 35px;
+	width: 35px;
+	background-color: #999;	
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#board {
+	padding-bottom: 5px;
+}
